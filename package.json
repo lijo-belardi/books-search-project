@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/lijo-belardi/books-search-project/issues"
   },
-  "homepage": "https://github.com/lijo-belardi/books-search-project#readme"
+  "homepage": "https://github.com/lijo-belardi/books-search-project#readme",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
 }
