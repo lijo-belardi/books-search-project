@@ -12,10 +12,20 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'webpack Boilerplate', 
+            title: 'webpack Boilerplate',
             template: path.resolve(__dirname, './src/template.html'),
             filename: 'index.html', //output file
         }),
         new CleanWebpackPlugin(),
     ],
+    module: {
+        rules: [
+            // Javascript
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: ['babel-loader'],
+            },
+        ],
+    }
 }
