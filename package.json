@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/lijo-belardi/books-search-project#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.17.10",
+    "babel-loader": "^8.2.5",
     "clean-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.72.0",
