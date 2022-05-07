@@ -1,1 +1,9 @@
+@import '../colors/colors.scss';
+
+// Font - type
 $font-family: 'PT Sans', sans-serif;
+
+// Setting text's color
+h1, h2, h3, h4, h5, h6, p, a {
+    color: $secondary-color;
+}
