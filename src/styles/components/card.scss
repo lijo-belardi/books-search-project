@@ -1,0 +1,10 @@
+@import "../colors/colors.scss";
+
+.card {
+    &--dark {
+        background-color: $primary-color-inverse;
+    }
+    &--soft-dark {
+        background-color: $primary-color;
+    }
+}
