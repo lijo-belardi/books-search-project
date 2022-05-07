@@ -1,4 +1,5 @@
 import axios from "axios";
+import "@babel/runtime/regenerator";
 import {log, logErrors} from "../utility/consoleShortcuts";
 
 // Request - get Book list
