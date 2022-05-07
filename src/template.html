@@ -32,11 +32,24 @@
         <h1>Book search library</h1>
       </div>
       <!-- form's section -->
+      <div id="error-message"></div>
+      <form id="form" action="/" method="get">
+        <!-- form - input -->
+        <div class="form-input">
+          <input type="text" id="search-input" placeholder="love, history, fantasy..." autocomplete="off" />
+        </div>
+
+        <!-- form - buttons -->
+        <div class="form-buttons">
+          <button type="submit" class="search-button" id="search-btn">Search</button>
+          <button id="refresh-button" class="refresh-button" type="click">Refresh Page</button>
+        </div>
+      </form>
     </div>
 
     <!-- Book's list -->
 
-  </div>
+  </div><!-- Main container  -->
   <!-- Footer -->
 
 
