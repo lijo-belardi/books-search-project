@@ -1,6 +1,7 @@
 import axios from "axios";
 import "@babel/runtime/regenerator";
 import {log, logErrors} from "../utility/consoleShortcuts";
+import { getBookElements } from "../getElements/getBookElements";
 
 // Request - get Book list
 export const getBooksByGenres = async (searchItem) => {
@@ -10,7 +11,7 @@ export const getBooksByGenres = async (searchItem) => {
       log(`getBooksByGenres - Response Status: ${response.status}`)
       let books = response.data.works
   
-      //getBookElements(books)
+      getBookElements(books)
       //getCovers(books)
       //displayBookDescription()
     } catch (error) {
