@@ -1,0 +1,26 @@
+@import '../colors/colors.scss';
+@import '../animations/transition.scss';
+
+
+// Button
+.btn-primary, .btn-secondary {
+    background-color: $tertiary-color;
+    color: $primary-color;
+    border-color: $tertiary-color;
+    //width: 9.375rem;
+    //height: 2.813rem;
+    border-radius: 3.75rem;
+    //letter-spacing: $letter-spacing-default;
+    transition: $transition-time;
+
+    &:hover {
+        background-color: $secondary-color;
+        color: $primary-color;
+        transform: scale(0.98);
+    }
+
+    &:focus {
+        background-color: $tertiary-color;
+        color: $primary-color;
+    }
+}

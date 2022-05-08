@@ -1,6 +1,10 @@
 @import "./fonts/fonts.scss";
 @import "./colors/colors.scss";
+// Animation
+@import "./animations/transition.scss";
+// Components
 @import "./components/card.scss";
+@import "./components/button.scss";
 
 /* ------- General style ------- */
 
@@ -28,4 +32,55 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+}
+
+/* Welcome's section */
+.welcome {
+    margin-top: 1rem;
+
+    .card {
+        //outline: 1px solid green;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        min-height: 10rem;
+
+        .title {
+            outline: 1px solid red;
+            min-width: 15rem;
+            text-align: center;
+        }
+
+    }
+}
+
+
+.form {
+    //outline: 1px solid blue;
+    min-width: 15rem;
+    min-height: 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+
+    &-input {
+        min-width: 15rem;
+        text-align: center;
+        border-radius: 3.75rem;
+    }
+    &-buttons {
+        //outline: 1px solid red;
+        margin-top: 0.5rem;
+        min-width: 15rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        button {
+            min-width: 6rem;
+            max-height: 2.5rem;
+        }
+    }
 }

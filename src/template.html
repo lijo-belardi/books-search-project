@@ -23,33 +23,37 @@
 </head>
 
 <body>
-  <!-- Main container  -->
-  <div class="container">
-    <!-- Welcome's section -->
+  <!-- Welcome container  -->
+  <div class="container welcome">
+    <!-- Welcome - card -->
     <div class="card card--dark">
       <!-- Welcome - title -->
       <div class="title">
         <h1>Book search library</h1>
       </div>
-      <!-- form's section -->
+      <!-- Welcome - error message -->
       <div id="error-message"></div>
-      <form id="form" action="/" method="get">
-        <!-- form - input -->
-        <div class="form-input">
-          <input type="text" id="search-input" placeholder="love, history, fantasy..." autocomplete="off" />
+      <!-- Welcome - form -->
+      <form class="form" id="form" action="/" method="get">
+        <!-- Welcome - form - input -->
+        <div>
+          <input class="form-input" type="text" id="search-input" placeholder="love, history, fantasy..."
+            autocomplete="off" />
         </div>
 
         <!-- form - buttons -->
         <div class="form-buttons">
-          <button type="submit" class="search-button" id="search-btn">Search</button>
-          <button id="refresh-button" class="refresh-button" type="click">Refresh Page</button>
+          <!-- TODO cambiare nome id qui del submit e nel javascript -->
+          <button type="submit" class="search-button btn btn-primary" id="search-btn">Search</button>
+          <button id="refresh-button" class="refresh-button btn btn-primary" type="click">Refresh</button>
         </div>
       </form>
     </div>
+  </div><!-- Welcome container  -->
 
-    <!-- Book's list -->
+  <!-- Book's list -->
 
-  </div><!-- Main container  -->
+
   <!-- Footer -->
 
 
