@@ -1,2 +1,19 @@
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+    /* Welcome's section */
+    .welcome {
+        .card {
+            min-height: 16rem;
+            .form {
+                min-height: 8.5rem;
+                &-input {
+                    min-height: 3rem;
+                }
+
+                button {
+                    min-height: 3rem;
+                }
+            }
+        }
+    }
+}
