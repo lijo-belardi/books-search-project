@@ -1,2 +1,25 @@
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { }
+@media (min-width: 992px) {
+    /* Welcome's section */
+    .welcome {
+        .card {
+            min-height: 14rem;
+            .title {
+                h1 {
+                    font-size: 3rem;
+                }
+            }
+            .form {
+                min-height: 7rem;
+                &-input {
+                    min-height: 2.5rem;
+                    min-width: 20rem;
+                    font-size: 1.725rem;
+                }
+                button {
+                    min-width: 7.25rem;
+                }
+            }
+        }
+    }
+}
