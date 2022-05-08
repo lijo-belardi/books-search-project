@@ -1,2 +1,15 @@
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {  }
+@media (min-width: 768px) { 
+    /* Welcome's section */
+    .welcome {
+        .card {
+            min-height: 12rem;
+        }
+        .form {
+            min-height: 6rem;
+            &-input {
+                min-height: 2rem;
+            }
+        }
+    }
+ }
