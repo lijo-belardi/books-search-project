@@ -1,5 +1,7 @@
+// Utility
 @import "./fonts/fonts.scss";
 @import "./colors/colors.scss";
+@import "./utility/utility.scss";
 // Animation
 @import "./animations/transition.scss";
 // Components
@@ -34,7 +36,7 @@ body {
     min-height: 100%;
 }
 
-/* Welcome's section */
+/* ----- Welcome's section ----- */
 .welcome {
     margin-top: 1rem;
     margin-bottom: 2.5rem;
@@ -90,7 +92,10 @@ body {
         }
     }
 }
-
+/* ----- Book-list's section ----- */
+.book-list {
+    min-height: $book-list-height;
+}
 
 // Media queries
 @import "./mediaqueries/small.scss";

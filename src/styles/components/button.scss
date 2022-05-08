@@ -1,9 +1,9 @@
-@import '../colors/colors.scss';
-@import '../animations/transition.scss';
-
+@import "../colors/colors.scss";
+@import "../animations/transition.scss";
 
 // Button
-.btn-primary, .btn-secondary {
+.btn-primary,
+.btn-secondary {
     background-color: $tertiary-color;
     color: $primary-color;
     border-color: $tertiary-color;

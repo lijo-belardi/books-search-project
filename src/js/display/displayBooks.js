@@ -19,7 +19,7 @@ export const displayBook = async (book) => {
             </div>
 
             <!-- Book - Cover -->
-            <div class="cover">
+            <div class="book-cover">
             </div>
 
             <!-- Book - Authors -->
@@ -28,7 +28,7 @@ export const displayBook = async (book) => {
             </div>
 
             <!-- Button trigger modal -->
-            <button type="button" class="description-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="description-button btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Read Description
             </button>
 
