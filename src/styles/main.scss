@@ -39,7 +39,6 @@ body {
     margin-top: 1rem;
 
     .card {
-        //outline: 1px solid green;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -47,40 +46,46 @@ body {
         min-height: 10rem;
 
         .title {
-            outline: 1px solid red;
             min-width: 15rem;
             text-align: center;
         }
-
     }
-}
 
-
-.form {
-    //outline: 1px solid blue;
-    min-width: 15rem;
-    min-height: 4rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-
-    &-input {
+    .form {
         min-width: 15rem;
+        min-height: 4rem;
         text-align: center;
-        border-radius: 3.75rem;
-    }
-    &-buttons {
-        //outline: 1px solid red;
-        margin-top: 0.5rem;
-        min-width: 15rem;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
 
-        button {
-            min-width: 6rem;
-            max-height: 2.5rem;
+        &-input {
+            min-width: 15rem;
+            text-align: center;
+            border-radius: 3.75rem;
+            color: $primary-color-inverse;
+            background-color: $secondary-color;
+            transition: $transition-time;
+            border: none;
+        }
+        &-input:focus {
+            background-color: $tertiary-color;
+            border-color: $primary-color;
+            box-shadow: 0 0 0 1px $primary-color;
+        }
+        &-buttons {
+            margin-top: 0.5rem;
+            min-width: 15rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            button {
+                min-width: 6rem;
+                max-height: 2.5rem;
+                border-color: $primary-color-inverse;
+                box-shadow: none;
+            }
         }
     }
 }
