@@ -3,6 +3,7 @@ import "@babel/runtime/regenerator";
 import { async } from "@babel/runtime/regenerator";
 import { get, isArray, result } from "lodash";
 import {log, logErrors} from "../utility/consoleShortcuts";
+import { displayBook } from "../display/displayBooks";
 
 
 
@@ -20,7 +21,7 @@ export const getBookElements = async (books) => {
             }
             return { title, key, authors }
         })
-        //displayBook(bookElements)
+        displayBook(bookElements)
     } catch (error) {
         log('ERROR: bookElements function')
         logErrors(error)
