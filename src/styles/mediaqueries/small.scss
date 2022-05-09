@@ -1,2 +1,26 @@
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    /* ----- Book-list's section ----- */
+    .book {
+        max-width: 27rem;
+        min-width: 27rem;
+        min-height: $book-height-sm;
+
+        &-title {
+            h2 {
+                font-size: $title-font-size-sm;
+            }
+        }
+        &-authors {
+            margin: auto 2rem;
+            h4 {
+                font-size: $authors-font-size-sm;
+            }
+        }
+        &-button {
+            .description-button {
+                min-height: 2.5rem;
+            }
+        }
+    }
+}
