@@ -1,6 +1,6 @@
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    /* Welcome's section */
+    /* ----- Welcome's section ----- */
     .welcome {
         .card {
             min-height: 16rem;
@@ -13,6 +13,17 @@
                 button {
                     min-height: 3rem;
                 }
+            }
+        }
+    }
+    /* ----- Book-list's section ----- */
+    .book {
+        max-width: 45rem;
+        min-width: 45rem;
+
+        &-title {
+            h2 {
+                font-size: $title-font-size-xl;
             }
         }
     }
