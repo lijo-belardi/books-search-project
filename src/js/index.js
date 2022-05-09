@@ -1,4 +1,9 @@
 import '../styles/main.scss'; // connect scss to template.html
 import {getBooksByGenres} from './api/books';
+import {submitFunction} from './components/submit'
 
-getBooksByGenres('fantasy')
+
+
+const form = document.getElementById('form')
+
+form.addEventListener('submit', submitFunction) // Submit
