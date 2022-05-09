@@ -53,6 +53,10 @@ body {
             min-width: 15rem;
             text-align: center;
         }
+
+        #error-message {
+            color: $tertiary-color;
+        }
     }
 
     .form {
