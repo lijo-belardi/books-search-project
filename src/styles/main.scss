@@ -95,6 +95,40 @@ body {
 /* ----- Book-list's section ----- */
 .book-list {
     min-height: $book-list-height;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.book {
+    min-height: $book-height;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 18rem;
+    min-width: 18rem;
+
+    &-title {
+        margin-top: 1rem;
+        text-align: center;
+        h2 {
+            font-size: $title-font-size;
+        }
+    }
+    &-authors {
+        text-align: center;
+        h4 {font-size: 1.25rem;}
+    }
+    &-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        .description-button {
+            min-width: 13rem;
+        }
+    }
 }
 
 // Media queries
