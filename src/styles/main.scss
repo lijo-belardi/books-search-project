@@ -105,12 +105,14 @@ body {
     min-height: $book-height;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     max-width: 18rem;
     min-width: 18rem;
 
     &-title {
-        margin-top: 1rem;
+        margin-top: 2rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
         text-align: center;
         h2 {
             font-size: $title-font-size;
@@ -118,13 +120,18 @@ body {
     }
     &-authors {
         text-align: center;
-        h4 {font-size: 1.25rem;}
+        margin: auto 1rem;
+        h4 {
+            font-size: 1.25rem;
+            
+        }
     }
     &-button {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        
+        margin-bottom: 2rem;
+
         .description-button {
             min-width: 13rem;
         }
