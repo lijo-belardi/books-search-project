@@ -11,7 +11,7 @@ export const displayBook = async (book) => {
     book.forEach(element => {
       html += `
         <!-- Single book - main div -->
-        <div class="card card--soft-dark book" data-id = "${element.key}">
+        <div class="card card--soft-dark book" data-id="${element.key}">
             
             <!-- Book - Title -->
             <div class="book-title">
@@ -29,7 +29,7 @@ export const displayBook = async (book) => {
 
             <!-- Button trigger modal -->
             <div class="book-button">
-                <button type="button" class="description-button btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="description-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Read Description
                 </button>
             </div>

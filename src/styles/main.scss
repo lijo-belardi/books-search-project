@@ -140,6 +140,10 @@ body {
     }
 }
 
+/* ---- Description's section ----- */
+p, h5 {
+    color: $primary-color;
+}
 // Media queries
 @import "./mediaqueries/small.scss";
 @import "./mediaqueries/medium.scss";
