@@ -1,2 +1,14 @@
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { }
+@media (min-width: 1400px) {
+    /* ----- Book-list's section ----- */
+    .book {
+        max-width: 50rem;
+        min-width: 50rem;
+
+        &-title {
+            h2 {
+                font-size: $title-font-size-xxl;
+            }
+        }
+    }
+ }
