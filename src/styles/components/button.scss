@@ -2,15 +2,17 @@
 @import "../animations/transition.scss";
 
 // Button
+.btn {
+    border-color: $tertiary-color;
+}
+
 .btn-primary,
 .btn-secondary {
     background-color: $tertiary-color;
     color: $primary-color;
     border-color: $tertiary-color;
-    //width: 9.375rem;
-    //height: 2.813rem;
     border-radius: 3.75rem;
-    //letter-spacing: $letter-spacing-default;
+    
     transition: $transition-time;
 
     &:hover {
@@ -21,6 +23,8 @@
 
     &:focus {
         background-color: $tertiary-color;
+        border-color: $tertiary-color;
         color: $primary-color;
+        box-shadow: none;
     }
 }
