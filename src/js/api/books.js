@@ -4,7 +4,7 @@ import "@babel/runtime/regenerator";
 import { log, logErrors } from "../utility/consoleShortcuts";
 import { getBookElements } from "../getElements/getBookElements";
 import { displayBookDescription } from "../display/displayBooksDescription";
-import { descriptionModal } from "../components/modal";
+
 
 // Request - get Book list
 export const getBooksByGenres = async (searchItem) => {
@@ -24,15 +24,3 @@ export const getBooksByGenres = async (searchItem) => {
   }
 }
 
-// Request - get Description
-export const descriptionRequest = async (key) => {
-  try {
-    let url = `https://openlibrary.org${key}.json`;
-    const response = await axios.get(url);
-    const description = get(response.data, 'description', 'No description for this book.')
-    descriptionModal(description)
-  } catch (error) {
-    log('ERROR: descriptionRequest function')
-    logErrors(error)
-  }
-}

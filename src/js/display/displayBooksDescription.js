@@ -1,7 +1,7 @@
 import axios from "axios";
 import { async } from "@babel/runtime/regenerator"
 import { log, logErrors } from "../utility/consoleShortcuts"
-import { descriptionRequest } from "../api/books";
+import { descriptionRequest } from "../api/booksDescription";
 
 export const displayBookDescription = async () => {
     try {
