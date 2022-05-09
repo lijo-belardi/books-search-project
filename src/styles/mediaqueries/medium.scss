@@ -1,6 +1,6 @@
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-    /* Welcome's section */
+@media (min-width: 768px) {
+    /* ----- Welcome's section ----- */
     .welcome {
         .card {
             min-height: 12rem;
@@ -12,4 +12,15 @@
             }
         }
     }
- }
+    /* ----- Book-list's section ----- */
+    .book {
+        max-width: 30rem;
+        min-width: 30rem;
+
+        &-title {
+            h2 {
+                font-size: $title-font-size-md;
+            }
+        }
+    }
+}
