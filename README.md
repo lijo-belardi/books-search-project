@@ -4,5 +4,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/lijo-belardi/books-search-project)
 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/lijo-belardi/books-search-project)
+
 ### Project link
 [book-search-project](https://lijo-book-search-project.netlify.app/)
