@@ -12,8 +12,7 @@ The project allows the user to search for books within the "Open Library" servic
 
 ## Link
 
-![Website](https://img.shields.io/website?style=for-the-badge&up_message=CLICK%20ME%21&url=https%3A%2F%2Flijo-book-search-project.netlify.app%2F)
-
+[![Website](https://img.shields.io/website?style=for-the-badge&up_message=CLICK%20ME%21&url=https%3A%2F%2Flijo-book-search-project.netlify.app%2F)](https://lijo-book-search-project.netlify.app/)
 
 ## Built with
 - [Axios](https://github.com/axios/axios)
