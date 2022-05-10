@@ -11,11 +11,13 @@ export const displayBookDescription = async () => {
         // addEventListener
         descriptionButton.forEach((button => {
             button.addEventListener('click', (e) => {
+                // Take data-id from book
                 let key = (e.target.parentElement.parentElement).dataset.id
                 descriptionRequest(key)
             })
         }))
     } catch (error) {
+        log('ERROR: displayBookDescription function')
         logErrors(error)
     }
 }

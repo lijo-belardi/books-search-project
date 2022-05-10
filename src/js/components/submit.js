@@ -1,4 +1,4 @@
-import { getBooksByGenres } from "../api/books"
+import { getBooksByGenres } from "../api/books";
 
 // submit function
 export const submitFunction = (e) => {
@@ -18,6 +18,5 @@ export const submitFunction = (e) => {
       formErrorMessage.innerText = messages.join(', ')
     }
   
-    //function invocation
     getBooksByGenres(searchItem)
   }
