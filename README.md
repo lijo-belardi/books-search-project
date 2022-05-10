@@ -8,5 +8,7 @@
 
 ![Netlify](https://img.shields.io/netlify/085d631b-9424-4891-9cbf-84f7ccb035da)
 
+![GitHub top language](https://img.shields.io/github/languages/top/lijo-belardi/books-search-project)
+
 ### Project link
 [book-search-project](https://lijo-book-search-project.netlify.app/)
