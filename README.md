@@ -6,5 +6,7 @@
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/lijo-belardi/books-search-project)
 
+![Netlify](https://img.shields.io/netlify/085d631b-9424-4891-9cbf-84f7ccb035da)
+
 ### Project link
 [book-search-project](https://lijo-book-search-project.netlify.app/)
