@@ -7,7 +7,7 @@ The project allows the user to search for books within the "Open Library" servic
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](/src/img/screenshot-book-search-project.jpg)
 
 
 ## Link
