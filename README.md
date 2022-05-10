@@ -23,39 +23,26 @@ The project allows the user to search for books within the "Open Library" servic
 - [Webpack 5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/)
 ## Color Reference
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Primary Color | #393441 |
+| Color                  | Hex     |
+| :--------------------- | :-------|
+| Primary Color          | #393441 |
 | Primary Color (inverse)| #2f2a36 |
-| Secondary Color | #FAF8FF|
-| Tertiary Color | #FBBA83  |
+| Secondary Color        | #FAF8FF |
+| Tertiary Color         | #FBBA83 |
 
 ## API Reference
 
-#### Get list of all books
-
-```http
-  GET /subject/book-list
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `subject` | `string` | **Required**. User's input |
-
-#### Get book's description
-
-```http
-  GET /subject/single-book/${key}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `key`      | `string` | **Required**. Key of book to fetch |
+| Documentation | Link                                                               |
+| :------------ | :----------------------------------------------------------------- |
+| Open Library  | [Developer Center - APIs ](https://openlibrary.org/developers/api) |
 
 
+| Parameter | Type     | Description                | 
+| :-------- | :------- | :------------------------- | 
+| `subject` | `string` | Get list of all books      | 
+| `key`     | `string` |  Get book's description    |  
 
-
-## 🔗 Links
+## Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://lijo-belardi.github.io/)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lijo-belardi-25615918b/)
