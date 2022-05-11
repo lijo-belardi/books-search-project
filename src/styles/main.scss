@@ -10,7 +10,6 @@
 @import "./components/button.scss";
 
 /* ------- General style ------- */
-
 *,
 *::before,
 *::after {
@@ -150,7 +149,9 @@ body {
 p, h5 {
     color: $primary-color;
 }
-// Media queries
+
+/* ---- Media queries section ----- */
+
 @import "./mediaqueries/small.scss";
 @import "./mediaqueries/medium.scss";
 @import "./mediaqueries/large.scss";
